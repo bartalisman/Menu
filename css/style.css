@@ -19,7 +19,7 @@ main {
   .sidebar {
     background-color: white;
     height: 100%;
-    width: 100px;
+    width: 70px;
     border-right: 1px solid rgba(0, 0, 0, 0.1);
     position: fixed;
     -webkit-user-select: none;
@@ -31,12 +31,14 @@ main {
     z-index: 200;
     overflow: hidden;
   }
-  
+  .sidebar .nav-menu-item span{
+    margin-left: -10px;
+  }
   .sidebar .nav-menu-item p {
     opacity: 0;
     -webkit-transition: .2s ease-in;
     transition: .2s ease-in;
-    font-size: 24px;
+    font-size: 20px;
     padding-left: 20px;
     font-family: "Lobster";
   }
@@ -48,11 +50,12 @@ main {
   }
   
   .sidebar .nav-menu-item span {
-    font-size: 35px;
+    font-size: 28px;
+    margin-top: -10px;
   }
   
   .sidebar:hover {
-    width: 300px;
+    width: 200px;
     -webkit-transition: .2s width;
     transition: .2s width;
     z-index: 200;
@@ -95,7 +98,7 @@ main {
   }
   .menu{
     margin: 0 auto;
-    width: 70%;
+    width: 95%;
   }
   .menu h3{
     padding: 10px;
@@ -121,7 +124,7 @@ main {
   
   .list .item {
     width: 100%;
-    max-width: 80%;
+    max-width: 70%;
     padding: 30px;
     margin: 20px;
     -ms-flex-preferred-size: 20%;
