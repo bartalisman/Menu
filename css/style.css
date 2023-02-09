@@ -97,7 +97,7 @@ main {
   }
   .menu{
     margin: 0 auto;
-    width: 95%;
+    width: 100%;
   }
   .menu h3{
     padding: 10px;
@@ -232,6 +232,11 @@ main {
     height: 180px;
   }
 }
+@media only screen and (orientation:landscape) {
+    body {
+      transform: rotate(90deg);
+    }
+  }
 details{
     font-family: Roboto;
     font-size: 20px;
