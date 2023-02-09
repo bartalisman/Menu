@@ -232,11 +232,11 @@ main {
     height: 180px;
   }
 }
-@media only screen and (orientation:landscape) {
-    body {
-      transform: rotate(90deg);
+@media screen and (orientation: landscape) {
+    .sidebar{
+        visibility: hidden;
     }
-  }
+}
 details{
     font-family: Roboto;
     font-size: 20px;
