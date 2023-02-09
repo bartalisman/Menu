@@ -103,7 +103,7 @@ main {
   .menu h3{
     padding: 10px;
     text-align: center;
-    font-size: 30px;
+    font-size: 35px;
     font-family: Roboto;
   }
   .list {
@@ -148,8 +148,8 @@ main {
     border-radius: 5px;
   }
   .list .item:hover {
-    -webkit-box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.04);
-            box-shadow: 0 0 8px 10px rgba(0, 0, 0, 0.04);
+    -webkit-box-shadow: 0 0 8px 10px #ee6344;
+            box-shadow: 0 0 8px 10px #ee6344;
     -webkit-transition: -webkit-box-shadow .3s;
     transition: -webkit-box-shadow .3s;
     transition: box-shadow .3s;
@@ -209,10 +209,11 @@ main {
   .drinks-item{
     display: flex;
     padding: 20px;
+    background-color: rgba(0, 0, 0, 0.04);
+    
   }
   .item-name{
     font-family: Lobster;
   }
-  .item-price{
-    margin-left: 4em;
-  }
+  
+  
