@@ -241,3 +241,10 @@ details{
     font-family: Roboto;
     font-size: 20px;
 }
+details p{
+    padding: 20px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    border-right: 1px dashed rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    box-shadow: 8px 8px 5px 10px rgba(0, 0, 0, 0.1);
+}
