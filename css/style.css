@@ -1,10 +1,11 @@
 * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
     margin: 0;
     padding: 0;
   }
 html {
     scroll-behavior: smooth;
-    orientation: portrait;
   }
 main {
     width: 100%;
@@ -216,11 +217,11 @@ main {
   }
 
 @media(max-width: 992px){
-    .item{
-        margin-left: 10%;
+    .list{
+        margin-left: 8%;
     }
     .drinks-item{
-        margin-left: 10%;
+        margin-left: 8%;
 
     }
   .menu h3{
