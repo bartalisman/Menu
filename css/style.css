@@ -31,6 +31,9 @@ main {
     z-index: 200;
     overflow: hidden;
   }
+  .nav-menu{
+    height: 90px;
+  }
   .sidebar .nav-menu-item span{
     margin-left: -10px;
   }
@@ -233,11 +236,11 @@ main {
     height: 180px;
   }
 }
-@media screen and (orientation: landscape) {
+/*@media screen and (orientation: landscape) {
     .sidebar{
         visibility: hidden;
     }
-}
+}*/
 details{
     font-family: Roboto;
     font-size: 20px;
