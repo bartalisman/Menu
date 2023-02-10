@@ -212,8 +212,11 @@ main {
   .drinks-item{
     display: flex;
     padding: 20px;
-    background-color: rgba(0, 0, 0, 0.04);
-    
+    background-color: rgba(0, 0, 0, 0.04);  
+  }
+  .food-item{
+    display: flex;
+    padding: 20px;
   }
   .item-name{
     font-family: Lobster;
@@ -236,11 +239,11 @@ main {
     height: 180px;
   }
 }
-/*@media screen and (orientation: landscape) {
+@media screen and (orientation: landscape) {
     .sidebar{
         visibility: hidden;
     }
-}*/
+}
 details{
     font-family: Roboto;
     font-size: 20px;
@@ -251,4 +254,7 @@ details p{
     border-right: 1px dashed rgba(0, 0, 0, 0.1);
     border-radius: 15px;
     box-shadow: 8px 8px 5px 10px rgba(0, 0, 0, 0.1);
+}
+.food{
+  font-family: Lobster;
 }
