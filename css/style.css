@@ -31,9 +31,6 @@ main {
     z-index: 200;
     overflow: hidden;
   }
-  .nav-menu{
-    height: 90px;
-  }
   .sidebar .nav-menu-item span{
     margin-left: -10px;
   }
@@ -87,6 +84,7 @@ main {
             align-items: center;
     -webkit-transition: .2s color;
     transition: .2s color;
+    height: 40px;
   }
   
   .sidebar .nav-menu .nav-menu-item:hover > * {
