@@ -84,7 +84,7 @@ main {
             align-items: center;
     -webkit-transition: .2s color;
     transition: .2s color;
-    height: 40px;
+    height: 35px;
   }
   
   .sidebar .nav-menu .nav-menu-item:hover > * {
